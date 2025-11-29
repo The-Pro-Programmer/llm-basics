@@ -51,3 +51,10 @@ Pattern Recognition and True Reasoning:
 - Reasoning frameworks:
     - ReAct frameworks
     - Chain-of-thoughts prompting
+
+Tools:
+- Tools are API's, external functions which AI agents can use
+- AI agents can perform below actions on tools
+    - Read
+    - Write
+- Examples: Agents can use calendar APi to plan holidays
