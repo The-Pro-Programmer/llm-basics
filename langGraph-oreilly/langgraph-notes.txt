@@ -1,3 +1,44 @@
+Prompt Engineering
+- Prompt Engineering is the foundational art and science of designing and optimizing the input (prompts) given to an LLM to achieve a desired and consistent output.
+- Focus: Single, refined input to get a single, optimal output from the LLM. It's about crafting the best question or instruction.
+- Techniques: Involves strategies like defining a role (e.g., "Act as a financial analyst"), providing specific constraints, or using advanced techniques like Chain-of-Thought (CoT) prompting to encourage reasoning.
+- No autonomy. It needs human correction.
+
+
+Chains
+- A Chain is a structural pattern where a series of sequential steps are executed, where the output of one step serves as the input for the next. These steps can include multiple LLM calls or other operations.
+- Focus: Decomposing a complex problem into smaller, manageable, and sequential sub-tasks. It's about creating a fixed, multi-step pipeline.
+- Structure: Often involves multiple prompts (prompt chaining), data transformations, or fixed calls to external tools in a predefined order.
+- Complexity: More complex than simple prompt engineering, allowing for better handling of multi-step processes with improved reliability and interpretability.
+- It has low autonomy. Initially human needs to decide on steps.
+
+
+AI Agents
+- An AI Agent is an LLM-based system that can autonomously plan, reason, and act to achieve a complex goal. 
+- Unlike a fixed chain, an agent can dynamically decide which tools to use and what - the next step should be.
+- Focus: Executing a complex, end-to-end task in a dynamic environment by making independent decisions. It's about creating an autonomous problem-solver.
+- Key Components: Typically includes a Planning module (to break down the task), Memory (to retain information across steps), and Tool Use (to interact with external systems like search engines or code interpreters).
+- Complexity: The most advanced level, as the agent's behavior is not hard-coded but determined dynamically by the LLM (the "brain") in response to observations and its goal.
+- It has high autonomy. It can decide next step and tool.
+
+
+Complexity: The simplest level of interaction, requiring constant human input for new tasks.
+AI Agents:
+- For AI agents, LLM are decision making engines
+- Agentic Behavior
+    - Routing
+    - Tool selection
+    - Quality check
+- Key characteristics of AI agents
+    - Reasoning and planning
+    - Action and tool used
+    - Memory
+    - Reflection
+
+- 
+
 Reasoning
 - Reasoning is a fundamental human cognitive process that enables decision making, problem solving
 - It is also used to break tasks into subtasks
+
+Pattern Recognition and True Reasoning:
