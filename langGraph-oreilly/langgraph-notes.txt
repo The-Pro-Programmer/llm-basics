@@ -44,3 +44,10 @@ Reasoning
 - It is also used to break tasks into subtasks
 
 Pattern Recognition and True Reasoning:
+- LLM's core task is pattern recognition. 
+- They can simulate reasoning by mimicking logical structures
+- LLM lack common sense and they do not have any real goal or motivation or awareness
+- Their reasoning ability comes from comprehensive training on complex data
+- Reasoning frameworks:
+    - ReAct frameworks
+    - Chain-of-thoughts prompting
