@@ -34,8 +34,10 @@ AI Agents:
     - Action and tool used
     - Memory
     - Reflection
-
-- 
+- Examples:
+    - Wikepedia style article generator
+    - Code generator / Test case generator
+    - Web navigation via AI agent
 
 Reasoning
 - Reasoning is a fundamental human cognitive process that enables decision making, problem solving
