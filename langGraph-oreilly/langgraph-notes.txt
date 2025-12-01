@@ -58,3 +58,21 @@ Tools:
     - Read
     - Write
 - Examples: Agents can use calendar APi to plan holidays
+
+
+LangChain:
+- LangChain is an open source framework designed to simplify the creation of applications using LLM
+- Key Components:
+    - Chains
+    - Prompt management
+    - Agents
+    - Vector database
+    - Models
+- LangChain Pipeline:
+    - LangChain pipeline is a structured sequence of steps where each step performs a specific task in the LLLM workflow
+    - Output of one step becomes input of next step
+
+
+LangGraph:
+- LangGraph is an opensource framework built by LangChain
+- It can streamline the creation and management of AI agent workflows
