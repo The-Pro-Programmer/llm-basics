@@ -73,6 +73,28 @@ LangChain:
     - Output of one step becomes input of next step
 
 
+ReAct framework:
+- ReAct stands for Reasoning and Acting
+- ReAct agents outperform zero-short prompting and other methods
+- It has enhanced trustworthiness
+- ReAct agents can get stuck in their thought loop - it can resolved by putting limit on maximum number of thought iterations
+- Also, ReAct has no scalability as they have only one agent
+
+
+Single Vs Multi Agent Architectures:
+- Single agent architectures: 
+    - Are good for simple and straight forward flows
+    - Easy to implement and enhanced
+    - Lack of parallelism
+- Multi agent architectures:
+    - Group of more than one singe agent which can communicate with each other to complete tasks
+    - Each agent is focused on what they do best
+    - There is parallelism
+    - These are scalable
+    - These system tend to be complex
+    - Risk of dominoes failure
+
+
 LangGraph:
 - LangGraph is an opensource framework built by LangChain
 - It can streamline the creation and management of AI agent workflows
